@@ -1,4 +1,4 @@
-PROG := inpaint
+PROG := tgl-test
 SRCS := $(wildcard *.c) minitrace/minitrace.c
 OBJS := $(SRCS:%.c=%.o)
 DEPS := $(SRCS:%.c=%.d)
